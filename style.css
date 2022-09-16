@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0b0b0b;
+}
+.loader{
+    text-align: center;
+    margin: 15em 30em;
+border: 16px solid #e3e3e3;
+border-radius: 50%;
+border-top: 16px solid #3498db;
+width: 150px;
+height: 150px;
+animation:spin 2s linear infinite ;
+}
+@keyframes spin{
+0% {
+transform:rotate(0deg); 
+}
+100%{
+    transform: rotate(360deg);
+}
+}
